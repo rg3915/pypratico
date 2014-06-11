@@ -8,6 +8,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+aulas/
+pypratico_env
 bin/
 build/
 develop-eggs/
@@ -41,6 +43,7 @@ coverage.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.idea
 
 # Rope
 .ropeproject
