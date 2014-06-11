@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 class Operacao():
     def calcular(self, param1, param2):
         pass
@@ -28,9 +26,9 @@ class Calculadora():
         return resultado
 
     def obter_input(self):
-        self.sinal_de_operacao = raw_input('Digite o sinal da operação:')
-        self.param1 = float(raw_input('Digite o primeiro parâmetro:'))
-        self.param2 = float(raw_input('Digite o segundo parâmetro:'))
+        self.sinal_de_operacao = input('Digite o sinal da operação:')
+        self.param1 = float(input('Digite o primeiro parâmetro:'))
+        self.param2 = float(input('Digite o segundo parâmetro:'))
 
 if __name__ == '__main__':
     calculadora = Calculadora()

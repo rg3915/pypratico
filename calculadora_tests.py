@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-import unittest
-from calculadora import Adicao, Subtracao
-
 class OperacaoTests(unittest.TestCase):
     def testar_adicao(self):
         adicao = Adicao()
