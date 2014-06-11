@@ -33,7 +33,9 @@ class Calculadora():
 if __name__ == '__main__':
     calculadora = Calculadora()
     adicao = Adicao()
+    subtracao = Subtracao()
     calculadora.adicionar_operacao('+', adicao)
+    calculadora.adicionar_operacao('-', subtracao)
 
     calculadora.obter_input()
     print(calculadora.calcular_resultado())
